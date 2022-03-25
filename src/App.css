@@ -1,0 +1,129 @@
+.App {
+  text-align: center;
+}
+html {
+  font-size: 55.5%;
+}
+
+body {
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+}
+.main-cart-section {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.cart-items {
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.08) 0rem 0.4rem 1.2rem;
+  border-radius: 2rem;
+  display: grid;
+}
+
+.cart-items-container {
+  width: 100%;
+  border-radius: 1rem;
+  height: auto;
+  /* border:2px solid; */
+}
+
+.items-info {
+  width: 100%;
+  height: 11rem;
+  margin: auto;
+  display: grid;
+  /* fractional unit 1 part of the available space */
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  /* background-color: #349bf3; */
+}
+
+.items-info1 {
+  width: 100%;
+  height: 11rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.items-info2 {
+  width: 100%;
+  height: 11rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.items-info3 {
+  width: 100%;
+  height: 11rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+img {
+  width: 16rem;
+  height: 11rem;
+  border-radius: 1rem;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.add-minus-h1 {
+  display: grid;
+  grid-template-columns: 20px 30px 20px;
+  padding: 8px;
+  grid-template-rows: 20px ;
+  margin-top: 35px;
+}
+.add{
+  font-size: 25px;
+  position: relative;
+  top: 3px;
+  left: 12px;
+}
+.coun-button{
+  border: none;
+  background-color:white;
+  position: relative;
+  top: 10px;
+  left: 5px;
+}
+.minus{
+  position: relative;
+  top: -5px;
+  font-size: 40px;
+}
+
+
+.price {
+  margin-left: 20rem;
+}
+.card-total {
+  width: 95%;
+  /* margin-top: 14rem; */
+  text-align: right;
+}
+h3 {
+  font-size: 2.58rem;
+  text-transform: capitalize;
+  color: #0b0b0c;
+}
+
+
+.card-total button {
+  /* border: none; */
+  font-size: 1.6rem;
+  padding: 1rem 3rem;
+  color: #fff;
+  background-color: #349bf3;
+  text-transform: uppercase;
+  border-radius: 0.5rem;
+  letter-spacing: 1px;
+}
+
+/* 
+@media (max-width: 968px) {
+  html {
+    font-size: 50%;
+  }
+} */
